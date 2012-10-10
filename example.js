@@ -1,8 +1,4 @@
-node-kext
-=========
-
-```javascript
-var kext = require('kext');
+var kext = require('./index');
 
 // Ensure that the module with bundle id 'foo.tun' is loaded.  If it isn't, try
 // to load it from the specified kext.  Calls the callback as cb(null, true) if
@@ -10,9 +6,4 @@ var kext = require('kext');
 // error object if something failed spectacularly.
 
 kext.ensure('foo.tun', '/Library/Extensions/tun.kext', console.log);
-```
 
-License
--------
-
-MIT

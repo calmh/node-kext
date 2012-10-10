@@ -1,0 +1,20 @@
+{
+  "author": "Jakob Borg <jakob@nym.se> (http://nym.se/)",
+  "name": "kext",
+  "description": "Check for and load Mac OS X kernel extensions",
+  "version": "1.0.0",
+  "homepage": "https://github.com/calmh/node-kext",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calmh/node-kext.git"
+  },
+  "main": "lib/kext.js",
+  "dependencies": {
+    "sudo": "~1.0.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
