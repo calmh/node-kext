@@ -1,0 +1,7 @@
+node-kext
+=========
+
+License
+-------
+
+MIT
