@@ -1,4 +1,4 @@
-var kext = require('./index');
+var kext = require('./lib/kext');
 
 // Ensure that the module with bundle id 'foo.tun' is loaded.  If it isn't, try
 // to load it from the specified kext.  Calls the callback as cb(null, true) if
