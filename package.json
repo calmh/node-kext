@@ -10,6 +10,7 @@
   },
   "main": "lib/kext.js",
   "dependencies": {
+    "async": "~0.2.6",
     "sudo": "~1.0.2"
   },
   "devDependencies": {},
