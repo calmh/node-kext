@@ -11,7 +11,8 @@
   "main": "lib/kext.js",
   "dependencies": {
     "async": "~0.2.6",
-    "sudo": "~1.0.2"
+    "sudo": "~1.0.2",
+    "yacon": "~1.0.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
